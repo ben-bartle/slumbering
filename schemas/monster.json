@@ -1,0 +1,24 @@
+{
+	"type": "object",
+	"properties": { 
+		"name": {"type":"string"},
+        "size": {"type":"string"},
+        "armorClass": {"type":"string"},
+        "hitPoints":{"type":"string"},
+        "speed":{"type":"string"},
+        "str":{"type":"number"},
+        "dex":{"type":"number"},
+        "con":{"type":"number"},
+        "int":{"type":"number"},
+        "wis":{"type":"number"},
+        "cha":{"type":"number"},
+        "senses":{"type":"string"},
+        "languages":{"type":"string"},
+        "challenge":{"type":"string"},
+        "features":{"type":"string"},
+        "actions":{"type":"string"}
+    },
+	
+	"required": [ "name" ],
+	"additionalProperties": false 
+}
