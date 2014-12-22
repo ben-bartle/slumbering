@@ -1,0 +1,496 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"mon",
+				"monsterIcons"
+			],
+			[
+				"mo",
+				"monsterIconFilters"
+			],
+			[
+				"chal",
+				"challengeVal"
+			],
+			[
+				"Chal",
+				"challengeVal"
+			],
+			[
+				"cha",
+				"challengeVal"
+			],
+			[
+				"th",
+				"thead	Tag"
+			],
+			[
+				"order",
+				"orderUp"
+			],
+			[
+				"caster",
+				"casterFilters"
+			],
+			[
+				"c",
+				"casters"
+			],
+			[
+				"json",
+				"jsonoutput"
+			],
+			[
+				"bac",
+				"background-size"
+			],
+			[
+				"inl",
+				"inline-block"
+			],
+			[
+				"font",
+				"font-variant"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "routes/monsters.js",
+			"settings":
+			{
+				"buffer_size": 1832,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app.js",
+			"settings":
+			{
+				"buffer_size": 2011,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 150.0,
+		"selected_items":
+		[
+			[
+				"case",
+				"Convert Case: Title Case"
+			],
+			[
+				"con",
+				"Convert Case: Lower Case"
+			],
+			[
+				"",
+				"Convert Case: Title Case"
+			],
+			[
+				"tab",
+				"Indentation: Convert to Tabs"
+			],
+			[
+				"wo",
+				"Word Wrap: Toggle"
+			],
+			[
+				"json",
+				"Set Syntax: JSON"
+			],
+			[
+				"html",
+				"Set Syntax: HTML"
+			],
+			[
+				"js",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"wrap",
+				"Word Wrap: Toggle"
+			],
+			[
+				"wor",
+				"Word Wrap: Toggle"
+			],
+			[
+				"jso",
+				"Set Syntax: JSON"
+			]
+		],
+		"width": 392.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/Users/ben/github/slumbering",
+		"/Users/ben/github/slumbering/public",
+		"/Users/ben/github/slumbering/routes",
+		"/Users/ben/github/slumbering/views"
+	],
+	"file_history":
+	[
+		"/Users/ben/github/dragon/app/scripts/controllers/monsters.js",
+		"/Users/ben/github/dragon/app/views/monsters.html",
+		"/Users/ben/github/dragon/app/views/main.html",
+		"/Users/ben/github/dragon/app/views/partials/nav.html",
+		"/Users/ben/github/dragon/app/scripts/controllers/main.js",
+		"/Users/ben/github/dragon/app/views/partials/monsterDetails.html",
+		"/Users/ben/github/dragon/app/views/partials/spellDetails.html",
+		"/Users/ben/github/dragon/app/views/spells.html",
+		"/Users/ben/github/dragon/Gruntfile.js",
+		"/Users/ben/github/dragon/app/scripts/controllers/spells.js",
+		"/Users/ben/github/dragon/app/data/monsters.json",
+		"/C/Users/Ben/AppData/Local/Temp/scp35199/var/www/cgi-bin/New file",
+		"/D/github/dragon/app/views/main.html",
+		"/D/github/dragon/app/scripts/controllers/monsters.js",
+		"/D/github/dragon/app/data/monsters.json",
+		"/D/github/dragon/Gruntfile.js",
+		"/D/github/dragon/app/scripts/controllers/spells.js",
+		"/D/github/dragon/app/views/partials/spellDetails.html",
+		"/D/github/dragon/app/views/partials/monsterDetails.html",
+		"/D/github/dragon/app/views/spells.html",
+		"/D/github/dragon/app/styles/main.css",
+		"/D/github/dragon/app/index.html",
+		"/D/github/dragon/app/scripts/app.js",
+		"/D/github/dragon/app/scripts/controllers/main.js",
+		"/D/github/dragon/app/views/monsters.html",
+		"/D/github/dragon/app/views/partials/nav.html",
+		"/D/github/dragon/app/views/templates/nav.html",
+		"/D/github/dragon/dist/index.html",
+		"/D/github/dragon/.gitignore",
+		"/D/github/dragon-prod/Gruntfile.js",
+		"/D/github/dragon-prod/app/scripts/app.js",
+		"/D/github/dragon/Gruntfile-prod.js",
+		"/D/github/dragon - prod/Gruntfile.js",
+		"/D/github/dragon/app/scripts/ngStorage.js",
+		"/D/github/mean-dragon-2/scripts/monsterController.js",
+		"/D/github/mean-dragon-2/scripts/spellController.js",
+		"/D/github/mean-dragon-2/spells.html",
+		"/D/github/mean-dragon-2/monsters.html",
+		"/D/github/mean-dragon/packages/custom/home/app.js",
+		"/D/github/mean-dragon/mean.json",
+		"/D/github/mean-dragon/package.json",
+		"/D/github/mean-dragon/config/express.js",
+		"/D/github/mean-dragon/packages/custom/home/public/routes/home.js",
+		"/D/github/mean-dragon/packages/custom/home/public/home.js",
+		"/D/github/mean-dragon/packages/system/public/views/index.html",
+		"/D/github/mean-dragon/packages/articles/app.js",
+		"/D/github/mean-dragon/server.js",
+		"/D/github/mean-dragon/packages/system/app.js",
+		"/D/github/mean-dragon/packages/custom/home/package.json",
+		"/D/github/mean-dragon/packages/custom/home/public/views/index.html",
+		"/D/github/mean-dragon/packages/system/package.json",
+		"/D/github/mean-dragon/LICENSE",
+		"/D/github/dragon/bower.json",
+		"/D/github/dragon/app/scripts/marked.js",
+		"/D/github/dragon/package.json",
+		"/C/Users/Ben/Desktop/spells/controllers.js",
+		"/C/Users/Ben/Desktop/spells/custom.css",
+		"/C/Users/Ben/Desktop/spells/spells.html",
+		"/C/Users/Ben/Downloads/monsters.csv",
+		"/D/github/dragon/app/data/monsterCR.json",
+		"/C/Users/Ben/Desktop/monsters.txt",
+		"/D/github/dragon/.git/data/monsterCR.json",
+		"/D/github/dragon/.git/config",
+		"/C/Users/Ben/Desktop/spells/bootstrap/css/bootstrap.css",
+		"/C/Users/Ben/Desktop/spells/old.html",
+		"/C/Users/Ben/Desktop/spells/index.html",
+		"/C/Users/Ben/Desktop/spells/spells.css",
+		"/C/Users/Ben/AppData/Roaming/Sublime Text 2/Packages/Default/Preferences.sublime-settings",
+		"/C/Users/Ben/Desktop/spells/spells.json",
+		"/C/Users/Ben/Desktop/spells/spellsAR.json",
+		"/C/Users/Ben/Desktop/spells/spellsAQ.json",
+		"/C/Users/Ben/Desktop/spells/spellsnew.json",
+		"/C/Users/Ben/Desktop/spells/spellsAH.json",
+		"/C/Users/Ben/Desktop/spells/spellsAF.json",
+		"/C/Users/Ben/Desktop/spells/marked.js",
+		"/C/Users/Ben/Desktop/spells/angular-md.js",
+		"/C/Users/Ben/Desktop/spells/spellsAE.json",
+		"/C/Users/Ben/Desktop/spells/spellsA.json",
+		"/C/Users/Ben/Desktop/spells/spellsAcorto.json",
+		"/C/Users/Ben/Desktop/spells/spellsA.txt",
+		"/C/Users/Ben/Desktop/spellsA.json",
+		"/C/Users/Ben/Desktop/angular.min.js"
+	],
+	"find":
+	{
+		"height": 23.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": true,
+		"find_history":
+		[
+			"\"",
+			" == ",
+			"\"",
+			"\\sHit:\\s",
+			"Ranged Weapon Attack",
+			"__",
+			"\\*\\*Hit:\\*\\*",
+			"&nbsp;",
+			"\\{name:",
+			"images",
+			"    ",
+			"  ",
+			"tab",
+			"livere",
+			"npm-",
+			"\"",
+			"\\{\\{monster.[a-z][a-z][a-z]\\}\\}",
+			".*:",
+			"19",
+			";",
+			"]",
+			"^[^\\]].*$",
+			"^Challenge.*$",
+			"fcf8e3",
+			"warning",
+			"danger",
+			"2",
+			"//			",
+			"  ",
+			"\"name\":\"",
+			",\\\"\\$\\$hashKey\"\\:\\\"object:[0-9*]\"\\}",
+			"Wall of Ice",
+			"•",
+			"<",
+			"</strong>",
+			"<strong>",
+			"</p>",
+			"<p>",
+			"<li>",
+			"</li>",
+			"</ul>",
+			"<ul>",
+			"</strong>",
+			"<strong>",
+			"</p>",
+			"<p>",
+			"            <p>",
+			"</p>\\n\\s*<p>",
+			"ornate",
+			" f ",
+			"At Higher Levels.",
+			" m ",
+			" w ",
+			"\"components\":.*\\([^\\)]*$",
+			"Duration:",
+			")\",",
+			"Duration:",
+			"Instantaneous",
+			"Duration:",
+			"\\},\\n.*\\{",
+			"},\\n{",
+			"<p>Duration",
+			"\"components\":.*\\([^\\)]*$",
+			"\"components\":.*\\([^\\)].*$",
+			"\"components\":.*\\([^\\)]*\",",
+			"\"components\":.*\\(.*",
+			"\"components\":.*(",
+			"\"name\":",
+			"\"name:\"",
+			"<p>.*</p>",
+			"<p>.*\\.</p>",
+			"<p>.*\\.",
+			"\"description\":\"",
+			". \",",
+			". \""
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": true,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 1,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "routes/monsters.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1832,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1032,
+								1032
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 403.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "app.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2011,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1040,
+								1040
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 380.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 23.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"project": "slumbering.sublime-project",
+	"replace":
+	{
+		"height": 42.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"selected_items":
+		[
+			[
+				"",
+				"~/github/slumbering/slumbering.sublime-project"
+			]
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 230.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

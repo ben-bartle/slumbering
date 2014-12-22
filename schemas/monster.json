@@ -16,7 +16,8 @@
         "languages":{"type":"string"},
         "challenge":{"type":"string"},
         "features":{"type":"string"},
-        "actions":{"type":"string"}
+        "actions":{"type":"string"},
+        "skills":{"type":"string"}
     },
 	
 	"required": [ "name" ],
