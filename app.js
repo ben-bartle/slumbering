@@ -11,6 +11,8 @@ var db = mongo.db("mongodb://localhost:27017/slumbering", {safe:true, native_par
 var monsters = require('./routes/monsters');
 var spells = require('./routes/spells');
 
+var apikey = require('./apikey.json');
+
 var app = express();
 
 // view engine setup
@@ -34,12 +36,17 @@ app.use(function(req,res,next){
     next();
 });
 
-/*app.use(function(req,res,next){
-    console.log(req);
+//make sure any request other than GET and OPTIONS uses the api key
+app.use(function(req,res,next){
+    if (req.method === 'GET' || req.method === 'OPTIONS')
+        return next();
+    if (req.headers[apikey.headerName] === apikey.headerValue)
+        return next();
+
     var err = new Error('Forbidden');
     err.status = 404;
     next(err);
-});*/
+});
 
 app.use('/=/monsters',monsters);
 app.use('/=/spells', spells);
