@@ -4,24 +4,23 @@ var express = require('express');
 //validator
 var validate = require('jsonschema').validate;
 
-var schema = require('../schemas/monster.json');
+var schema = require('../schemas/spell.json');
 
 var router = express.Router();
 
-
-/* GET monster. */
+/* GET spell. */
 router.get('/:id?', function(req, res) {
     res.header("Access-Control-Allow-Origin", "*");
     res.header("Access-Control-Allow-Headers", "X-Requested-With");
-    
+
     var db = req.db;
     var id = req.params.id;
     if (id){
-        db.collection('monsters').findById(id, function (err, item) {
+        db.collection('spells').findById(id, function (err, item) {
             res.json(item);
         }); 
     } else {
-        db.collection('monsters').find().sort('name').toArray(function (err, items) {
+        db.collection('spells').find().sort('name').toArray(function (err, items) {
             res.json(items);
         });    
     }
@@ -29,20 +28,20 @@ router.get('/:id?', function(req, res) {
 });
 
 /*
- * POST to monsters.
+ * POST to spells.
  */
 router.post('/', function(req, res, next) {
     
     var db = req.db;
-  /*  var v = validate(req.body,schema);
+    var v = validate(req.body,schema);
     if (v.errors.length>0){
     	//res.send({msg:v.errors});
     	var err = new Error('validation failed');
     	err.status = 400;
     	return next(err);
     }
-*/
-    db.collection('monsters').insert(req.body, function(err, result){
+
+    db.collection('spells').insert(req.body, function(err, result){
     	if (err) return next(err);
         console.log(result[0]);
         res.send(result[0]);
@@ -52,7 +51,7 @@ router.post('/', function(req, res, next) {
 
 
 /*
- * PUT to monsters/id
+ * PUT to spells/id
  */
 router.put('/:id', function(req, res, next) {
     var db = req.db;
@@ -62,9 +61,9 @@ router.put('/:id', function(req, res, next) {
     
     //clean up and validate for update
     delete data._id;
-    delete data.editing;
-    delete data.collapsed;
-    delete data.challengeVal;
+//    delete data.editing;
+//    delete data.collapsed;
+//    delete data.challengeVal;
     
     var v = validate(data,schema);
     if (v.errors.length>0){
@@ -74,7 +73,7 @@ router.put('/:id', function(req, res, next) {
         return next(err);
     }
 
-    db.collection('monsters').updateById(id, {$set: data}, {safe:true,multi:false},function(err, result) {
+    db.collection('spells').updateById(id, {$set: data}, {safe:true,multi:false},function(err, result) {
         //todo: error handling
         res.status = 200;
         res.send('');
@@ -82,12 +81,12 @@ router.put('/:id', function(req, res, next) {
 });
 
 /*
- * DELETE to monsters/id
+ * DELETE to spells/id
  */
 router.delete('/:id', function(req, res) {
     var db = req.db;
     var id = req.params.id;
-    db.collection('monsters').removeById(id, function(err, result) {
+    db.collection('spells').removeById(id, function(err, result) {
         //todo: error handling
         res.send(result);
     });

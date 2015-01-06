@@ -8,8 +8,8 @@ var bodyParser = require('body-parser');
 var mongo = require('mongoskin');
 var db = mongo.db("mongodb://localhost:27017/slumbering", {safe:true, native_parser:true});
 
-var routes = require('./routes/index');
 var monsters = require('./routes/monsters');
+var spells = require('./routes/spells');
 
 var app = express();
 
@@ -34,9 +34,15 @@ app.use(function(req,res,next){
     next();
 });
 
-app.use('/', routes);
+/*app.use(function(req,res,next){
+    console.log(req);
+    var err = new Error('Forbidden');
+    err.status = 404;
+    next(err);
+});*/
+
 app.use('/=/monsters',monsters);
-//app.use('/=/monsters/:id', monsters);
+app.use('/=/spells', spells);
 
 
 // catch 404 and forward to error handler
