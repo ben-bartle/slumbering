@@ -31,7 +31,7 @@ app.use(express.static(path.join(__dirname, 'public')));
 app.use(function(req,res,next){
     res.header("Access-Control-Allow-Origin", "*");
     res.header("Access-Control-Allow-Methods", "GET, POST, PUT, DELETE, OPTIONS")
-    res.header("Access-Control-Allow-Headers", "Origin X-Requested-With, Content-Type, Accept");
+    res.header("Access-Control-Allow-Headers", "Origin X-Requested-With, Content-Type, Accept, " + apikey.headerName);
     req.db = db;
     next();
 });
@@ -44,11 +44,11 @@ app.use(function(req,res,next){
         return next();
 
     var err = new Error('Forbidden');
-    err.status = 404;
+    err.status = 403;
     next(err);
 });
 
-app.use('/=/monsters',monsters);
+app.use('/=/monsters', monsters);
 app.use('/=/spells', spells);
 
 
