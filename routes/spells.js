@@ -61,9 +61,9 @@ router.put('/:id', function(req, res, next) {
     
     //clean up and validate for update
     delete data._id;
-//    delete data.editing;
-//    delete data.collapsed;
-//    delete data.challengeVal;
+    delete data.editing;
+    delete data.collapsed;
+    delete data.order;
     
     var v = validate(data,schema);
     if (v.errors.length>0){
