@@ -30,5 +30,8 @@ node_modules
 # data directory
 data
 
+# dragon directory - used for serving static dragon dist
+dragon
+
 #api key info
 apikey.json
